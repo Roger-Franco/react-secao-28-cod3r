@@ -7,8 +7,8 @@ ReactDOM.render(
   <div>
     <Family lastName="Silva">
       <Member name="João" />
-      {/* <Member name="Thu" />
-      <Member name="Rog" /> */}
+      <Member name="Thu" />
+      <Member name="Rog" />
     </Family>
   </div>
   , document.getElementById("app"));
