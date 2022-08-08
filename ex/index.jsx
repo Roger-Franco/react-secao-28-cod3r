@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import Field from "./field";
 
 const reducers = combineReducers({
-  field: () => ({ valor: 'Hello!' })
+  field: () => ({ value: 'Hello!' })
 })
 
 ReactDOM.render(
