@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { combineReducers, createStore } from 'redux';
 import { Provider } from 'react-redux';
-import fieldReducer from './counterReducer';
+import fieldReducer from './fieldReducer';
 
-import Counter from "./counter";
+import Field from "./field";
 
 const reducers = combineReducers({
   field: fieldReducer
